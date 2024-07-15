@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    color: #000;
+  }
+  label{
+    color: white;
+  }
+  a{
+    color: #fff;
+  }
+
+  body {
+    color: #fff;
+    background-color: black;
+    margin: 0;
+  }
+
+  .container2 {
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('low1.jpeg'); */
+    background-color: rgb(173, 224, 207);
+
+  }
+
+  nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo a {
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  span {
+    color: #f9004d;
+  }
+
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  nav ul li a:hover {
+    color: #f9004d;
+  }
+
+  .login {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+  }
+
+  .btn {
+    background: #000;
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 18px;
+  }
+
+  .content {
+    text-align: center;
+    max-width: 600px;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+   
+  }
+
+  .content h2 {
+    font-size: 60px;
+  }
+
+  .content p {
+    margin-top: 10px;
+    line-height: 25px;
+  }
+
+  .questionnaire {
+    background-color: black;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .questionnaire label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .questionnaire select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .questionnaire button {
+    background: #f9004d;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+h2,p{
+  color: #fff;
+}
